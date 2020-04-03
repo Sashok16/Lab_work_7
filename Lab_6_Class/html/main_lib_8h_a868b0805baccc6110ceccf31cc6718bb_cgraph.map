@@ -1,0 +1,13 @@
+<map id="Condition" name="Condition">
+<area shape="rect" id="node1" title="A prototype of a function that is responsible for the output result of comparing the selected fields." alt="" coords="5,157,81,184"/>
+<area shape="rect" id="node2" href="$class_c_software.html#a475cda3957d3ceb26c6d7ed361b579f0" title="Field Getter corporation." alt="" coords="153,5,329,32"/>
+<area shape="rect" id="node3" href="$class_c_software.html#a84387cc56c0921abce759da67237a670" title="Field Getter day." alt="" coords="174,56,307,83"/>
+<area shape="rect" id="node5" href="$class_c_software.html#aa3750c243f8e7dd6d0aed9ecf6d57489" title="Field Getter momory." alt="" coords="162,107,319,133"/>
+<area shape="rect" id="node6" href="$class_c_software.html#aa6a82d4479f8d3a3643dc6d44d596ae6" title="Field Getter mon." alt="" coords="173,157,308,184"/>
+<area shape="rect" id="node8" href="$class_c_software.html#a8b624a258b8ec45bafb8f43691c9b99b" title="Field Getter numberOfOpenings." alt="" coords="129,208,352,235"/>
+<area shape="rect" id="node9" href="$class_c_software.html#abcccba5159ff59afe94ec7d8d0c8a16a" title="Field Getter numberOfUsers." alt="" coords="139,259,342,285"/>
+<area shape="rect" id="node10" href="$class_c_software.html#a131456e20b3ddff08e607cb2990c9ec5" title="Field Getter year." alt="" coords="172,309,309,336"/>
+<area shape="rect" id="node4" href="$class_c_date.html#a63f84c9583516a58fbd472b4e633d6a2" title="Field Getter day." alt="" coords="402,56,513,83"/>
+<area shape="rect" id="node7" href="$class_c_date.html#a319630429ab4e47869b947535ace99c1" title="Field Getter mon." alt="" coords="401,157,513,184"/>
+<area shape="rect" id="node11" href="$class_c_date.html#a430011432ed24f100adfe2d0588e7598" title="Field Getter year." alt="" coords="400,309,515,336"/>
+</map>

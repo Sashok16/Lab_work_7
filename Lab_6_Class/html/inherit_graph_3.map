@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_framework.html" title="Abstract class that stores virtual functions." alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node2" href="$class_c_software.html" title="The class is an heir to an abstract class, with the implementation of virtual methods." alt="" coords="140,5,221,32"/>
+<area shape="rect" id="node3" href="$class_avast.html" title="A hereditary class that overrides the abstract class methods and adds one of its own...." alt="" coords="269,5,324,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="CDate::GetDate" name="CDate::GetDate">
+<area shape="rect" id="node1" title="Getter date." alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$class_c_date.html#a63f84c9583516a58fbd472b4e633d6a2" title="Field Getter day." alt="" coords="170,5,281,32"/>
+<area shape="rect" id="node3" href="$class_c_date.html#a319630429ab4e47869b947535ace99c1" title="Field Getter mon." alt="" coords="169,56,281,83"/>
+<area shape="rect" id="node4" href="$class_c_date.html#a430011432ed24f100adfe2d0588e7598" title="Field Getter year." alt="" coords="168,107,283,133"/>
+</map>

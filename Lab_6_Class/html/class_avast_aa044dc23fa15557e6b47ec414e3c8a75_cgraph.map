@@ -1,0 +1,14 @@
+<map id="Avast::WriteToFile" name="Avast::WriteToFile">
+<area shape="rect" id="node1" title="Implement a virtual function to write information to output file." alt="" coords="5,157,133,184"/>
+<area shape="rect" id="node2" href="$main_lib_8h.html#af9935464ad814e97589733b1b0ea03e9" title="A prototype of a function that is responsible for the presence of an output file." alt="" coords="228,5,311,32"/>
+<area shape="rect" id="node3" href="$class_avast.html#a4e2813c97c09e1631efb2906ab9b8782" title="Field Getter copying." alt="" coords="204,56,335,83"/>
+<area shape="rect" id="node4" href="$class_c_software.html#a475cda3957d3ceb26c6d7ed361b579f0" title="Field Getter corporation." alt="" coords="181,107,357,133"/>
+<area shape="rect" id="node5" href="$class_avast.html#ac26e6c381423bdcfc4fd747b64bc2ff9" title="Field Getter damage." alt="" coords="204,157,335,184"/>
+<area shape="rect" id="node6" href="$class_c_software.html#a746a5c17f85cb358c86d9b049981808c" title="Field Getter date." alt="" coords="201,208,338,235"/>
+<area shape="rect" id="node11" href="$class_avast.html#aa44eb5ffce8e20370fdf19df34817acb" title="Field Getter name." alt="" coords="211,259,328,285"/>
+<area shape="rect" id="node12" href="$class_avast.html#a2b9066b4c5478663e22c88dc59d5ecc9" title="Field Getter nameOfFile." alt="" coords="194,309,345,336"/>
+<area shape="rect" id="node7" href="$class_c_date.html#ab0bf8a77d0f57da0da34696d6e2849a6" title="Getter date." alt="" coords="405,208,520,235"/>
+<area shape="rect" id="node8" href="$class_c_date.html#a63f84c9583516a58fbd472b4e633d6a2" title="Field Getter day." alt="" coords="570,157,681,184"/>
+<area shape="rect" id="node9" href="$class_c_date.html#a319630429ab4e47869b947535ace99c1" title="Field Getter mon." alt="" coords="569,208,681,235"/>
+<area shape="rect" id="node10" href="$class_c_date.html#a430011432ed24f100adfe2d0588e7598" title="Field Getter year." alt="" coords="568,259,683,285"/>
+</map>

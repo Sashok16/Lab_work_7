@@ -1,0 +1,5 @@
+<map id="Framework" name="Framework">
+<area shape="rect" id="node1" title="Abstract class that stores virtual functions." alt="" coords="43,5,155,156"/>
+<area shape="rect" id="node2" href="$class_c_software.html" title="The class is an heir to an abstract class, with the implementation of virtual methods." alt="" coords="5,204,193,516"/>
+<area shape="rect" id="node3" href="$class_avast.html" title="A hereditary class that overrides the abstract class methods and adds one of its own...." alt="" coords="43,564,155,832"/>
+</map>

@@ -1,0 +1,12 @@
+               openings                    users  date of creation      memory(Kb)     corporation
+    program ->      12        23   12.12.1988 y.            12345           Qwerty
+    program ->    2345        94   10.12.2000 y.           123456            Apple
+    program ->    2344       200   19.06.2001 y.           654321             Asus
+    program ->    3453       876   15.08.2002 y.           543256             Aser
+    program ->    2342        94   09.12.2020 y.           123456             Dell
+    program ->    2131        23   22.12.2019 y.           654321           Galaxy
+    program ->    6534        94   01.01.2015 y.           123456            Apple
+    program ->    2437        23   12.10.2013 y.           654322             Asus
+    program ->    8523       876   17.02.2013 y.           543256           NoName
+    program ->    1239        94   20.11.1990 y.           123456             Dell
+    program ->    1460        23   17.09.2002 y.           654321           Galaxy

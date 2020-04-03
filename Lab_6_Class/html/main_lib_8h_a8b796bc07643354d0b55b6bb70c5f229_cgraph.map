@@ -1,0 +1,15 @@
+<map id="SortSpisok" name="SortSpisok">
+<area shape="rect" id="node1" title="Prototype of a function that is responsible for sorting only the &quot;Software&quot; list." alt="" coords="5,157,92,184"/>
+<area shape="rect" id="node2" href="$_software_8cpp.html#a9c72b32bb56f410c293c8930fcef84fd" title="A prototype of a function that already sorts the list by the selected parameters." alt="" coords="140,157,216,184"/>
+<area shape="rect" id="node3" href="$_software_8cpp.html#a977e3c31e00f452b6df05b3f8fd8de99" title="A prototype of a function that is responsible for the output result of comparing the selected fields." alt="" coords="264,157,340,184"/>
+<area shape="rect" id="node4" href="$class_c_software.html#a475cda3957d3ceb26c6d7ed361b579f0" title="Field Getter corporation." alt="" coords="411,5,587,32"/>
+<area shape="rect" id="node5" href="$class_c_software.html#a84387cc56c0921abce759da67237a670" title="Field Getter day." alt="" coords="433,56,566,83"/>
+<area shape="rect" id="node7" href="$class_c_software.html#aa3750c243f8e7dd6d0aed9ecf6d57489" title="Field Getter momory." alt="" coords="421,107,578,133"/>
+<area shape="rect" id="node8" href="$class_c_software.html#aa6a82d4479f8d3a3643dc6d44d596ae6" title="Field Getter mon." alt="" coords="432,157,567,184"/>
+<area shape="rect" id="node10" href="$class_c_software.html#a8b624a258b8ec45bafb8f43691c9b99b" title="Field Getter numberOfOpenings." alt="" coords="388,208,611,235"/>
+<area shape="rect" id="node11" href="$class_c_software.html#abcccba5159ff59afe94ec7d8d0c8a16a" title="Field Getter numberOfUsers." alt="" coords="398,259,601,285"/>
+<area shape="rect" id="node12" href="$class_c_software.html#a131456e20b3ddff08e607cb2990c9ec5" title="Field Getter year." alt="" coords="431,309,568,336"/>
+<area shape="rect" id="node6" href="$class_c_date.html#a63f84c9583516a58fbd472b4e633d6a2" title="Field Getter day." alt="" coords="661,56,771,83"/>
+<area shape="rect" id="node9" href="$class_c_date.html#a319630429ab4e47869b947535ace99c1" title="Field Getter mon." alt="" coords="660,157,772,184"/>
+<area shape="rect" id="node13" href="$class_c_date.html#a430011432ed24f100adfe2d0588e7598" title="Field Getter year." alt="" coords="659,309,773,336"/>
+</map>
