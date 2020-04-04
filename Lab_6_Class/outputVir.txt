@@ -1,10 +1,4 @@
                 date        damage        corporation          copying          name                name of file
-    virus -> 01.01.1999    390000 $            World             true              RAT                  System.exe
-    virus -> 01.01.2002    450000 $            World            false         ILOVEYOU     LOVE-LETTER-FOR-YOU.TXT
-    virus -> 01.01.2003    250000 $       Kasperskiy             true          Blaster                  Nvidia.dll
-    virus -> 01.01.1999    390000 $            Intel             true          Melissa                  SysAdm.exe
-    virus -> 01.01.2002    450000 $            World             true              CIH               WindowLol.dll
-    virus -> 01.01.1999    390000 $            World             true            Nimda                   Cryak.dll
-    virus -> 01.01.2002    450000 $            World            false        StormWorm                   Games.dll
-    virus -> 01.01.1999    390000 $            World             true          Slammer                  Monkey.exe
-    virus -> 21.11.2008   2590000 $            World            false        Conficker                   Snake.exe
+    virus -> 01.01.1999    190000 $        Microsoft                1              RAT                  System.exe
+    virus -> 01.01.1999    890000 $  LolKekChebureck                1          Slammer                  Monkey.exe
+    virus -> 21.11.2008   2590000 $         Misterio                0        Conficker                   Snake.exe

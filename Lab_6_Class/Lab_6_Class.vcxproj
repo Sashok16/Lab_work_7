@@ -247,7 +247,6 @@
     <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="addOneProg.txt" />
     <Text Include="input.txt" />
     <Text Include="inputVir.txt" />
   </ItemGroup>

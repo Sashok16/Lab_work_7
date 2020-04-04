@@ -67,8 +67,5 @@
     <Text Include="inputVir.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="addOneProg.txt">
-      <Filter>Source Files</Filter>
-    </Text>
   </ItemGroup>
 </Project>

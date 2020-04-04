@@ -5,6 +5,7 @@
 #include "BaseClass.h"
 #include "inheritanceClass.h"
 #include "mainLib.h"
+#include "test.h"
 /**
  @brief Structure for lists
 */
@@ -125,10 +126,22 @@ void CreateSpisok(list_ptr hP, list_ptr hV, const char * fileName, const char* f
 				name = "NoName";
 			}
 			add->info.SetCorporation(name);
+			
+			string value2;
+			int value2Int;
+			fOpen >> value2;
+			regex regex_line1("[01]$");
+			if (!regex_match(value2, regex_line1)) {
+				value2 = "0";
+			}
+			else {
+				value2Int = atoi(value2.c_str());
+			}
+			add->info.SetThrojan(value2Int);
+			
 			size++;
-			value2 = rand() % 2;
-			add->info.SetThrojan(value2);
 			add->info.SetId(size);
+
 			prog = prog->next;
 		}
 		hP->size = size;
@@ -240,6 +253,7 @@ Elections are verified through regular expressions.
 */
 void StartMenu() {
 	int choiceMain = 0, choiceNext = 1, choiseList, restart = 1;
+	int testing = 0;
 	string choiseListStr, choiceMainStr;
 	HANDLE hCon;
 	COORD cPos;
@@ -256,34 +270,40 @@ void StartMenu() {
 		virHead->amount = 0;
 		CreateSpisok(progHead, virHead, "input.txt", "inputVir.txt");
 		cout << endl;
-		cout << "  Choose the list you want to manage:"
-			<< "\n\tlist \"Software\" -> 1"
-			<< "\n\tlist \"Virus\" ----> 2";
-
-		bool check = true;
-		while (check)
-		{
-			SetConsoleTextAttribute(hConsole, (WORD)(BROWN));
-			cout << "\n  Enter choice -> ";
-			cin >> choiseListStr;
-			//Если есть ошибка, выводим сообщение
-			regex regex_integer("[1-2]");
-			if (!regex_match(choiseListStr, regex_integer)) {
-				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTRED));
-				cout << "Please enter numbers! Repeat!\n";
-				//Восстановили поток
-				cin.clear();
-				//Почистили поток
-				cin.ignore(cin.rdbuf()->in_avail());
+		int notRstarting = 1;
+		while (notRstarting == 1) {
+			if (testing == 0) {
+				cout <<"\n\tTesting some mothods";
+				choiseList = 3;
 			}
 			else {
-				choiseList = atoi(choiseListStr.c_str());
-				check = false;
+				cout << "  Choose the list you want to manage:"
+					<< "\n\tlist \"Software\" -> 1"
+					<< "\n\tlist \"Virus\" ----> 2";
+			
+				bool check = true;
+				while (check)
+				{
+					SetConsoleTextAttribute(hConsole, (WORD)(BROWN));
+					cout << "\n  Enter choice -> ";
+					cin >> choiseListStr;
+					//Если есть ошибка, выводим сообщение
+					regex regex_integer("[1-2]");
+					if (!regex_match(choiseListStr, regex_integer)) {
+						SetConsoleTextAttribute(hConsole, (WORD)(LIGHTRED));
+						cout << "Please enter numbers! Repeat!\n";
+						//Восстановили поток
+						cin.clear();
+						//Почистили поток
+						cin.ignore(cin.rdbuf()->in_avail());
+					}
+					else {
+						choiseList = atoi(choiseListStr.c_str());
+						check = false;
+					}
+				}
 			}
-		}
-		switch (choiseList)
-		{
-			case 1:
+			if (choiseList == 1)
 			{
 				progHead->info.ShowAll(progHead);
 				choiceNext = 1;
@@ -389,6 +409,7 @@ void StartMenu() {
 					case 8:
 					{
 						choiceNext = 0;
+						notRstarting = 0;
 						for (int i = 0; i < 32; i++) {
 							system("cls");
 							int width = 0, height = 0;
@@ -446,7 +467,7 @@ void StartMenu() {
 					}
 				}
 			}
-			case 2:
+			if (choiseList == 2)
 			{
 				system("cls");
 				virHead->virus.ShowAll(virHead);
@@ -525,6 +546,7 @@ void StartMenu() {
 					case 6:
 					{
 						choiceNext = 0;
+						notRstarting = 0;
 						for (int i = 0; i < 32; i++) {
 							system("cls");
 							int width = 0, height = 0;
@@ -576,11 +598,57 @@ void StartMenu() {
 					}
 				}
 			}
-			case 3:
-			{
-
+			if (choiseList == 3)
+			{   
+				system("cls");
+				cout << "\n\tTesting some mothods";
+				
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTCYAN));
+				cout << "\nTesting based on knowledge of input data.\n";
+				testing = 1;
+				
+				for (size_t i = 0; i < 86; i++)
+				{
+					cout << "=";
+				}
+				cout << endl;
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				cout << "Method  \"CSoftware::FindFrom()\" : \n";
+				cout << endl;
+				cout <<  testCSoftwareFindFrom(progHead);
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				for (size_t i = 0; i < 86; i++)
+				{
+					cout << "=";
+				}
+				cout << endl;
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				cout << "Method  \"CSoftware::deleteProgramWithTrojan()\" : \n";
+				cout << testCSoftwareDeleteProgramWithTrojan(progHead);
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				for (size_t i = 0; i < 86; i++)
+				{
+					cout << "=";
+				}
+				cout << endl;
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				cout << "Method  \"Avast::FindFrom()\" : \n";
+				cout << testAvastFindFrom(virHead);
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				for (size_t i = 0; i < 86; i++)
+				{
+					cout << "=";
+				}
+				cout << endl;
+				
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTCYAN));
+				cout << "Testing based on knowledge of input data.\n";
+				SetConsoleTextAttribute(hConsole, (WORD)(LIGHTGRAY));
+				cout << "Press any key...";
+				_getch();
+				system("cls");
+				notRstarting = 0;
 			}
-
 		}
 		DelSpisok(virHead);
 		DelSpisok(progHead);

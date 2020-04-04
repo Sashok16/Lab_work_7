@@ -1,10 +1,10 @@
-1  1  1999  390000    Microsoft       1    RAT         System.exe
-1  1  2002  450000    Microsoft       0    ILOVEYOU    LOVE-LETTER-FOR-YOU.TXT
+1  1  1999  190000    Microsoft       1    RAT         System.exe
+1  1  2002  250000    Microsoft       0    ILOVEYOU    LOVE-LETTER-FOR-YOU.TXT
 1  1  1988  965000    RobertMorris    1    Morris      Herix.exe
-1  1  2003  250000    Kasperskiy      1    Blaster     Nvidia.dll
-1  1  1999  390000    Intel           1    Melissa     SysAdm.exe
-1  1  2002  450000    Microsoft       1    CIH         WindowLol.dll
+1  1  2003  450000    Kasperskiy      1    Blaster     Nvidia.dll
+1  1  1999  590000    Intel           1    Melissa     SysAdm.exe
+1  1  2002  650000    Microsoft       1    CIH         WindowLol.dll
 1  1  1999  390000    GinglBells      1    Nimda       Cryak.dll
-1  1  2002  450000    IronMan         0    StormWorm   Games.dll
-1  1  1999  390000    LolKekChebureck 1    Slammer     Monkey.exe
+1  1  2002  750000    IronMan         0    StormWorm   Games.dll
+1  1  1999  890000    LolKekChebureck 1    Slammer     Monkey.exe
 21 11 2008  2590000   Misterio        0    Conficker   Snake.exe
